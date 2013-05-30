@@ -1,0 +1,180 @@
+div.story_post_container {
+ position:relative;
+ max-width: 600px;
+}
+
+div.story_container {
+ position:relative;
+ height:256px;
+ width:256px;
+ margin: 20px;
+ float: left;
+}
+
+div.story_popup_button {
+ position:absolute;
+ top: 5px;
+ left: 5px;
+ z-index:99;
+ color:white;
+ border: 1px solid white;
+-moz-border-radius: 5px;
+ border-radius: 5px;
+ float: right;
+ background-color:black;
+ background: rgb(0,0,0) transparent; /* shit browsers */
+ background: rgba(0,0,0, 0.5); /* nice browsers */
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000); /*  IE 6/7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#8000000)"; /* IE8 */
+ width:16px;
+ height:16px;
+ text-align: center;
+ display: table-cell;
+ vertical-align:middle;
+}
+
+div.story_popup_container {
+ position:absolute;
+ left: 0px;
+ top: 0px;
+ display:none;
+ min-width: 400px;
+ max-width: 500px;
+ z-index: 100;
+ clear:right;
+}
+
+div.story_popup img.main_image {
+ max-width: 400px;
+}
+
+div.story_popup {
+ padding:10px 50px;
+ background-color: black;
+ color: white;
+ -moz-border-radius: 20px;
+ border-radius: 20px;
+}
+
+ /*It's possible to simplify this if Seth would rather just manually scale/crop images*/
+div.story_popup div.story_image {
+ position:absolute;
+ top:0;
+ left:0;
+ width:  256px;
+ height: 256px;
+ padding:0;
+ margin:0;
+ overflow: hidden;
+}
+
+div.story_image img {
+ position:absolute;
+ top: 0; left:0;
+ width: 256px; 
+ height: 256px; 
+ padding:0;
+ margin:0;
+}
+
+
+/*Begin Image Overlays*/
+div.text_container {
+ position:absolute;
+ top: 0;
+ left: 0p;
+ height: 4em;
+ width: 100%;
+ color:white;
+ /* webkit */
+ background-image: -webkit-gradient(
+  linear, left top, left bottom, from(rgba(0,0,0,1)),
+  to(rgba(0,0,0,0)), color-stop(.25,rgba(0,0,0,1))
+ );
+
+ /* mozilla - FF3.6+ */
+ background-image: -moz-linear-gradient(
+  rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 100%
+ );
+
+ /* IE */
+ filter: progid:DXImageTransform.Microsoft.gradient(
+   startColorstr=#FF000000, endColorstr=#00000000
+ );
+
+ /* IE8 uses -ms-filter for whatever reason... */
+ -ms-filter: progid:DXImageTransform.Microsoft.gradient(
+   startColorstr=#FF000000, endColorstr=#00000000);
+}
+
+div.title {
+ position:absolute;
+ top: 5px;
+ left: 31px;
+ width: 165px;
+ overflow: hidden; 
+ max-height: 2.5em;
+}
+
+div.author {
+ position:absolute;
+ top: 5px;
+ right: 5px;
+ width: 50px;
+ overflow: hidden;
+ max-height: 2.5em;
+}
+
+div.complete {
+ position:absolute;
+ padding: 5px;
+ width:32px;
+ height: 32px;
+ bottom:5px;
+ right: 5px;
+ background: rgb(0,0,0) transparent; /* shit browsers */
+ background: rgba(0,0,0, 0.5); /* nice browsers */
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000); /*  IE 6/7 */
+ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#8000000)"; /* IE8 */
+ border: 1px solid white;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+ color: white;
+ font-size: 24pt;
+ font-weight: bold;
+ text-align: center;
+}
+
+div.tags {
+ position:absolute;
+ bottom:5px;
+ left: 0;
+ width:52px;
+ z-index:99;
+}
+
+div.genre_tags {
+ margin: 5px;
+ float:left;
+ background: rgb(0,0,0) transparent; /* shit browsers */
+ background: rgba(0,0,0, 0.5); /* nice browsers */
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000); /*  IE 6/7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#8000000)"; /* IE8 */
+ border: 1px solid white;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+ width:52px;
+}
+
+div.char_tags {
+ margin: 5px;
+ float:left;
+ background: rgb(0,0,0) transparent; /* shit browsers */
+ background: rgba(0,0,0, 0.5); /* nice browsers */
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000); /*  IE 6/7 */
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#8000000)"; /* IE8 */
+ border: 1px solid white;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+ width:52px;
+}

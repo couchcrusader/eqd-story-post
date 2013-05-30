@@ -1,0 +1,100 @@
+div.romance_tag {
+ padding: 5px;
+ background: url('http://www.fimfiction-static.net/images/emoticons/heart.png');
+ width:16px;
+ height:16px;
+ background-size: 16px;
+ background-repeat:no-repeat;
+ background-position: center;
+ float:left;
+}
+
+div.sol_tag {
+ padding: 5px;
+ background: url('http://images1.wikia.nocookie.net/__cb20110805223622/mlp/images/c/c5/Celestia_cutie_mark_Discover_the_Difference_game.svg'); /*find a better one: it was a beautiful sunny day...*/
+ width: 16px;
+ height:16px;
+ background-size: 16px;
+ background-repeat:no-repeat;
+ background-position: center;
+ float:left;
+}
+
+
+div.com_tag {
+ padding: 5px;
+ background: url('http://www.fimfiction-static.net/images/emoticons/rainbowlaugh.png'); 
+ width:16px;
+ height:16px;
+ background-size: 16px;
+ background-repeat:no-repeat;
+ background-position: center;
+ float:left;
+}
+
+
+div.dash_tag {
+ padding: 5px;
+ background: url('http://www.fimfiction-static.net/images/characters/rainbow_dash.png');
+ width:16px;
+ height:16px;
+ background-size: 16px;
+ background-repeat:no-repeat;
+ background-position: center;
+ float:left;
+}
+
+div.twilight_tag {
+ padding: 5px;
+ background: url('http://www.fimfiction-static.net/images/characters/twilight_sparkle.png');
+ width:16px;
+ height:16px;
+ background-size: 16px;
+ background-repeat:no-repeat;
+ background-position: center;
+ float:left;
+}
+
+div.applejack_tag {
+ padding: 5px;
+ background: url('http://www.fimfiction-static.net/images/characters/applejack.png');
+ width:16px;
+ height:16px;
+ background-size: 16px;
+ background-repeat:no-repeat;
+ background-position: center;
+ float:left;
+}
+
+div.pinkie_tag {
+ padding: 5px;
+ background: url('http://www.fimfiction-static.net/images/characters/pinkie_pie.png');
+ width:16px;
+ height:16px;
+ background-size: 16px;
+ background-repeat:no-repeat;
+ background-position: center;
+ float:left;
+}
+
+div.rarity_tag {
+ padding: 5px;
+ background: url('http://www.fimfiction-static.net/images/characters/rarity.png');
+ width:16px;
+ height:16px;
+ background-size: 16px;
+ background-repeat:no-repeat;
+ background-position: center;
+ float:left;
+}
+
+div.fluttershy_tag {
+ padding: 5px;
+ background: url('http://www.fimfiction-static.net/images/characters/fluttershy.png');
+ width:16px;
+ height:16px;
+ background-size: 16px;
+ background-repeat:no-repeat;
+ background-position: center;
+ float:left;
+}
