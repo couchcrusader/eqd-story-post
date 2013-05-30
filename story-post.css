@@ -79,6 +79,17 @@ div.story_image img {
 
 
 /*Begin Image Overlays*/
+div.story_container div.story_hud {
+ opacity: .15;
+ transition: opacity .25s ease-in-out;
+ -moz-transition: opacity .25s ease-in-out;
+ -webkit-transition: opacity .25s ease-in-out;
+}
+
+div.story_container:hover div.story_hud {
+ opacity: 1;
+}
+
 div.text_container {
  position:absolute;
  top: 0;
@@ -147,7 +158,7 @@ div.complete {
 
 div.tags {
  position:absolute;
- bottom:5px;
+ bottom:0px;
  left: 0;
  width:52px;
  z-index:99;
